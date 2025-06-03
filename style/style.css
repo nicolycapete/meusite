@@ -1,0 +1,64 @@
+@charset "UTF8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #441f55;
+}
+
+header {
+    background-color: #222121;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a {
+    color: #d40075; /* Um azul turquesa */
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d40094;
+}
+
+main {
+    padding: 2rem;
+}
+
+#player {
+    background-color: #141012;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#player audio {
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.current-song h3 {
+    margin-bottom: 0.5rem;
+    color: #d40094;
+}
+body
